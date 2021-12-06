@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact
+title: 1st International Workshop on Digital Twin Engineering
 ---
 
 # Contact
