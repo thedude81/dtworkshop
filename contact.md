@@ -3,6 +3,8 @@ layout: default
 title: Contact
 ---
 
+![](/assets/css/img/uibklogo.png)
+
 # Contact
 
 <strong>Philipp Zech</strong>
