@@ -3,9 +3,11 @@ layout: default
 title: Contact
 ---
 
-[![](/assets/css/img/uibklogo.png)](https://www.uibk.ac.at/)
-
 # Contact
+
+---
+
+[![](/assets/css/img/uibklogo.png)](https://www.uibk.ac.at/)
 
 <strong>Philipp Zech</strong>
 
@@ -21,4 +23,3 @@ title: Contact
 ### Follow Us ###
 
 [![Facebook](/assets/css/img/facebook.png)](https://www.facebook.com/informatikinnsbruck/)          [![Facebook](/assets/css/img/twitter.png)](https://twitter.com/furinnsbruck)
-
