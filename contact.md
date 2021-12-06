@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-<div><img src="/assets/css/img/uibklogo.png" class="img-fluid" alt="image" width="350"></div>
+![](/assets/css/img/uibklogo.png)
 
 # Contact
 
