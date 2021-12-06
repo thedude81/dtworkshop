@@ -14,7 +14,7 @@ title: Contact
 ![](/assets/css/img/mail.png)  [philipp.zech@uibk.ac.at](mailto:philipp.zech@uibk.ac.at)\
 ![](/assets/css/img/globe.png)  [Quality Engineering Research Group](https://q-e.at)
 
-<div><img src="/dtworkshop/assets/css/img/uibklogo.png" class="img-fluid" alt="image" width="350"></div>
+<div><img src="/assets/css/img/uibklogo.png" class="img-fluid" alt="image" width="350"></div>
 
 
 ---
