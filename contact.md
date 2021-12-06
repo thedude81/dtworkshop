@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-![](/assets/css/img/uibklogo.png)(https://www.uibk.ac.at/)
+[![](/assets/css/img/uibklogo.png)](https://www.uibk.ac.at/)
 
 # Contact
 
