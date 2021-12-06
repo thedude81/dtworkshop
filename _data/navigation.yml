@@ -1,16 +1,16 @@
 - name: Home
   link: /
 - name: Topics
-  link: /dtworkshop/index.html/#topics
+  link: /dtworkshop/index.html#topics
 - name: Keynote Speakers
-  link: /dtworkshop/index.html/#invited-speakers
+  link: /dtworkshop/index.html#invited-speakers
 - name: Venue
-  link: /dtworkshop/index.html/#venue
+  link: /dtworkshop/index.html#venue
 - name: Organizers
-  link: /dtworkshop/index.html/#organizers
+  link: /dtworkshop/index.html#organizers
 - name: Papers
-  link: /dtworkshop/index.html/#papers
+  link: /dtworkshop/index.html#papers
 - name: Schedule
-  link: /dtworkshop/index.html/#schedule
+  link: /dtworkshop/index.html#schedule
 - name: Contact
   link: /dtworkshop/contact.html
