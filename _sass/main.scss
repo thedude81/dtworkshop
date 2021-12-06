@@ -133,6 +133,9 @@ body {
   
   p {
 	line-height: 1.8em;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
   }
   
   hr {
