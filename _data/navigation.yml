@@ -2,7 +2,9 @@
   link: /dtworkshop/index.html
 - name: Topics
   link: /dtworkshop/index.html#topics
-- name: Keynote Speakers
+- name: Call
+  link: /dtworkshop/index.html#call-for-contributions
+- name: Speakers
   link: /dtworkshop/index.html#invited-speakers
 - name: Venue
   link: /dtworkshop/index.html#venue
