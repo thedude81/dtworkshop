@@ -19,10 +19,4 @@
 - name: Contact
   link: /dtworkshop/contact.html
 - name: Previous Editions
-  link: "#"
-  weight: 2
-  subsubfolderitems:
-    - name: "@Poem 2022"
-      link: /dtworkshop/poem2022.html
-    - name: "@ISEC 2022"
-      link: /dtworkshop/404.html
+  link: /dtworkshop/previous.html
