@@ -9,30 +9,14 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav navbar-dark">
-      {% for item in site.data.navigation %}
-        {% if item.subfolderitems[0] %}
-           <ul class="menu">
-           {% for entry in item.subfolderitems %}
-                 <li class="{% if entry.subsubfolderitems[0] %}has-sub{% endif %} menu-item">
-                    <a class="menu-link nav-link {% if entry.subsubfolderitems[0] %}menu-toggle{% endif %}" href="{{ entry.url }}">{{ entry.name }}</a>
-                    {% if entry.subsubfolderitems[0] %}
-                       <ul class="menu-sub menu-drop">
-                          {% for subentry in entry.subsubfolderitems %}
-                             <li class="menu-item">
-                                <a class="menu-link nav-link" href="{{ subentry.url }}">{{ subentry.name }}</a>
-                             </li>
-                          {% endfor %}
-                       </ul>
-                    {% endif %}
-                 </li>
-           {% endfor %}
-           </ul>
-        {% endif %}
-      <a class="navbar-brand" href="{{ item.link }}" {% if page.url == item.link %} id="highlight"{% endif %}>
-        {{ item.name }}</a>
-      {% endfor %}
-	  
+        {% for item in site.data.navigation %}
+        <a class="navbar-brand" href="{{ item.link }}" {% if page.url == item.link %} id="highlight"{% endif %}>
+          {{ item.name }}</a>
+        {% endfor %}
       </div>      
+    </div>
+      </div>
+  </nav>
     </div>
       </div>
   </nav>
