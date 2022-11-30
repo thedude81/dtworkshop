@@ -18,9 +18,5 @@
   link: /dtworkshop/index.html#tpc
 - name: Contact
   link: /dtworkshop/contact.html
-primary:
-- title: Previous Editions
-  subfolderitems:
-  - name: 1st International Workshop on Digital Twin Engineering
-    link: /dtworkshop/previous.html
-    weight: 2
+- name: Archive: 1st International Workshop on Digital Twin Engineering
+  link: /dtworkshop/previous.html
