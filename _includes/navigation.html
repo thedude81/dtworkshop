@@ -1,31 +1,15 @@
-<nav id="navbar" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-        {% assign links = site.data.navigation %}
-        {% for link in links %}
-            {% assign class = nil %}
-            {% if page.url contains link.url %}
-                {% assign class = 'active' %}
-            {% endif %}
-            {% if link.sublinks %}
-                <li class="dropdown {{ class }}">
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        {% for sublink in link.sublinks %}
-                            {% if sublink.title == 'separator' %}
-                                <li role="separator" class="divider"></li>
-                            {% else %}
-                                <li>
-                                    <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                                </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                </li>
-            {% else %}
-                <li class="{{ class }}">
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-dark ">    
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav navbar-dark">
+        {% for item in site.data.navigation %}
+          <a class="navbar-brand" href="{{ item.link }}" {% if page.url == item.link %} id="highlight"{% endif %}>
+            {{ item.name }}</a>
+        {% endfor %}    
+      </div>      
+    </div>
+  </div>
 </nav>
