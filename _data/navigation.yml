@@ -18,7 +18,6 @@
   link: /dtworkshop/index.html#tpc
 - name: Contact
   link: /dtworkshop/contact.html
-- name: Event 2022
-  sublinks:    
-    - title: Editon 2022
-      link: /dtworkshop/previous.html
+  sublinks:
+  - name: Event 2022
+    link: /dtworkshop/previous.html
