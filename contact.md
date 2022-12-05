@@ -6,7 +6,7 @@ title: Contact
 # Contact
 
 ---
-[![](/assets/css/img/tcslogo.png)](https://www.tcs.com/what-we-do/research)
+[![](/assets/css/img/tcslogo.jpg)](https://www.tcs.com/what-we-do/research)
 
 <strong>Souvik Barat</strong>
 
