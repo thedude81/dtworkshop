@@ -18,6 +18,14 @@ title: Contact
 ![](/assets/css/img/mail.png)   [philipp.zech@uibk.ac.at](mailto:philipp.zech@uibk.ac.at)\
 ![](/assets/css/img/globe.png)  [Quality Engineering Research Group](https://q-e.at)
 
+
+[![](/assets/css/img/tcs.png)](https://www.tcs.com/what-we-do/research)
+
+<strong>Souvik Barat</strong>
+
+![](/assets/css/img/mail.png)   [souvik.barat@tcs.com](mailto:souvik.barat@tcs.com)\
+![](/assets/css/img/globe.png)  [Tata Research](https://tcs.com)
+
 ---
 
 ### Follow Us ###
